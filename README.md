@@ -43,3 +43,14 @@ Player data from client: `{'ID':int,'name':str,'rect':[int,int,int,int],'color':
 Have fun experimenting or adapting this code into your projects!
 
 Credit is not necessary but is appreciated :)
+
+
+## To run:
+* Run `server.py` in the interpreter
+* Open a terminal (in the same directory) and enter `python main.py`
+
+## Known Bugs
+* Moving players from starting position before enabling multiplayer leaves 'artifacts' behind
+* Significant network latency if 'lobby' hasn't reached MAX_CLIENTS (listener socket still running)
+
+Feel free to identify any other unknown bugs and introduce possible fixes! 👍
