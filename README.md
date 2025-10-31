@@ -1,3 +1,5 @@
+# Pygame UDP Multiplayer Framework
+
 This is a simplified example of a multiplayer networking system using:
 - `pygame`    (for graphics)
 - `socket`    (for connections)
